@@ -13,3 +13,4 @@ Fill in the form with card information and click the button to make a payment.
 - ExpressJS
 - axios
 - primeicons
+- .env
