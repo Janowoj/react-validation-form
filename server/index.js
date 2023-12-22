@@ -22,7 +22,7 @@ app.post("/payment", cors(), async (req, res)=>{
             currency: "USD",
             description: "Payment",
             payment_method: id,
-            confirm: true
+            // confirm: true
         })
 
         console.log("Payment", payment)

@@ -55,10 +55,10 @@ function PaymentForm() {
         CardExpiryElement,
         CardNumberElement,
       ),
-      confirmParams: {
-        return_url: "http://localhost:4000/payment",
-      },
-      redirect: 'if_required'
+      // confirmParams: {
+      //   return_url: "http://localhost:4000/payment",
+      // },
+      // redirect: 'if_required'
     });
 
     if (!error) {
